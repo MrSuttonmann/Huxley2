@@ -61,7 +61,7 @@ stages:
       displayName: 'Deploy Huxley 2 to Azure web app service'
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'Azure subscription 1(e78f5ea0-bc84-42ba-8122-2a20415a6d00)'
+        azureSubscription: 'Azure subscription 1(8da96fa6-0c30-4e0f-ab2b-1e345ea56c7a)'
         appType: 'webAppLinux'
         WebAppName: 'huxley'
         packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'
